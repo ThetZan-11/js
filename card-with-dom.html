@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    let card = document.createElement("div");
+    let img_container = document.createElement("div");
+    let img = document.createElement("img");
+    let card_content = document.createElement("div");
+    let header = document.createElement("h3");
+    let p = document.createElement("p");
+    let span = docuemnt.createElement("span");
+
+    card.appendChild(img_container);
+    img_container.appendChild(img);
+    card.appendChild(card_content);
+    card_content.appendChild(header);
+    card_content.appendChild(p);
+    card_content.appendChild(span);
+    document.body.appendChild(card);
+
+    card.classList.add("container", "text-white", "bg-white", "rounded-top", "mt-5");
+    img_container.classList.add("rounded-circle", "mt-5", "mb-4", "div-center", "border", "border-3", "border-danger", "img_container", "d-flex", "justify-content-center", "align-items-center");
+    img.src = "./girl.jpg";
+    img.classList.add("rounded-circle", "img-fluid", "img-js");
+
+    card_content.classList.add("text-center", "bg-success", "border","rounded-bottom");
+    header.innerText = "Thet Zan";
+    header.classList.add("mb-3", "mt-3");
+    p.innerText = "New York";
+
+</script>
+
+</html>

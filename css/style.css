@@ -1,0 +1,15 @@
+.container{
+    margin:  auto;
+    width: 35%;
+}
+.img-js{
+    width: 150px;
+    height: 150px;
+}
+.img_container{
+    width: 170px;
+    height: 170px;
+}
+.div-center{
+    margin: auto;
+}
